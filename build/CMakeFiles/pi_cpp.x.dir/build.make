@@ -90,7 +90,7 @@ pi_cpp_x_EXTERNAL_OBJECTS =
 
 bin/pi_cpp.x: CMakeFiles/pi_cpp.x.dir/src/main.cpp.o
 bin/pi_cpp.x: CMakeFiles/pi_cpp.x.dir/build.make
-bin/pi_cpp.x: lib/libpi_cpp.so
+bin/pi_cpp.x: bibcc/libpi_cpp.so
 bin/pi_cpp.x: CMakeFiles/pi_cpp.x.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thierry/Baobab_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/pi_cpp.x"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pi_cpp.x.dir/link.txt --verbose=$(VERBOSE)

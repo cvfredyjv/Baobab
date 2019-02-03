@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pi_cpp.dir/src/pi.cpp.o"
-  "lib/libpi_cpp.pdb"
-  "lib/libpi_cpp.so"
+  "bibcc/libpi_cpp.pdb"
+  "bibcc/libpi_cpp.so"
 )
 
 # Per-language clean rules from dependency scanning.

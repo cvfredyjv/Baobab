@@ -1,1 +1,1 @@
-/usr/bin/x86_64-linux-gnu-g++-7  -O3  -rdynamic CMakeFiles/pi_cpp.x.dir/src/main.cpp.o  -o bin/pi_cpp.x -Wl,-rpath,/home/thierry/Baobab_dev/build/lib lib/libpi_cpp.so 
+/usr/bin/x86_64-linux-gnu-g++-7  -O3  -rdynamic CMakeFiles/pi_cpp.x.dir/src/main.cpp.o  -o bin/pi_cpp.x -Wl,-rpath,/home/thierry/Baobab_dev/build/bibcc bibcc/libpi_cpp.so 

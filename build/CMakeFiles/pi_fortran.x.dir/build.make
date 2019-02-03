@@ -90,7 +90,7 @@ pi_fortran_x_EXTERNAL_OBJECTS =
 
 bin/pi_fortran.x: CMakeFiles/pi_fortran.x.dir/src/main.f90.o
 bin/pi_fortran.x: CMakeFiles/pi_fortran.x.dir/build.make
-bin/pi_fortran.x: lib/libpi_fortran.so
+bin/pi_fortran.x: bibcc/libpi_fortran.so
 bin/pi_fortran.x: CMakeFiles/pi_fortran.x.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thierry/Baobab_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking Fortran executable bin/pi_fortran.x"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pi_fortran.x.dir/link.txt --verbose=$(VERBOSE)
