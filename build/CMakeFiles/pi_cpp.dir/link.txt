@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7 -fPIC -O3  -shared -Wl,-soname,libpi_cpp.so -o lib/libpi_cpp.so CMakeFiles/pi_cpp.dir/src/pi.cpp.o 

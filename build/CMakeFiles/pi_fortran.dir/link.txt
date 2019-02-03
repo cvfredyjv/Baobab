@@ -1,0 +1,1 @@
+/usr/bin/gfortran -fPIC -O3  -shared -Wl,-soname,libpi_fortran.so -o lib/libpi_fortran.so CMakeFiles/pi_fortran.dir/src/pi.f90.o 

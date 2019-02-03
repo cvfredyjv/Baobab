@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thierry/Baobab_dev/src/pi.cpp
+cstdlib
+-
+pi.h
+/home/thierry/Baobab_dev/src/pi.h
+
+/home/thierry/Baobab_dev/src/pi.h
+pi_cpp_export.h
+/home/thierry/Baobab_dev/src/pi_cpp_export.h
+
+pi_cpp_export.h
+
